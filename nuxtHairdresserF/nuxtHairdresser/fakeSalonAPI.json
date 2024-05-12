@@ -1,0 +1,90 @@
+{
+    "salon_name": "Chic Cuts & Styles",
+    "location": "123 Main Street, Anytown, USA",
+    "phone_number": "(555) 123-4567",
+    "email": "info@chiccuts.com",
+    "website": "http://www.chiccuts.com",
+    "services": [
+      {
+        "service_id": 1,
+        "service_name": "Haircut",
+        "description": "Get a professional haircut from one of our experienced stylists.",
+        "duration_minutes": 30,
+        "price": 30.00
+      },
+      {
+        "service_id": 2,
+        "service_name": "Hair Color",
+        "description": "Transform your look with a beautiful hair color treatment.",
+        "duration_minutes": 60,
+        "price": 80.00
+      },
+      {
+        "service_id": 3,
+        "service_name": "Blowout",
+        "description": "Get a glamorous blowout for a special occasion or just to treat yourself.",
+        "duration_minutes": 45,
+        "price": 40.00
+      },
+      {
+        "service_id": 4,
+        "service_name": "Extensions",
+        "description": "Add length and volume to your hair with our high-quality extensions.",
+        "duration_minutes": 120,
+        "price": 200.00
+      },
+      {
+        "service_id": 5,
+        "service_name": "Men's Haircut",
+        "description": "A classic or trendy haircut tailored for men.",
+        "duration_minutes": 30,
+        "price": 25.00
+      },
+      {
+        "service_id": 6,
+        "service_name": "Beard Trim",
+        "description": "Keep your beard looking sharp with a professional trim.",
+        "duration_minutes": 15,
+        "price": 15.00
+      },
+      {
+        "service_id": 7,
+        "service_name": "Men's Combo (Haircut & Beard Trim)",
+        "description": "Get a fresh haircut and a beard trim for a complete grooming experience.",
+        "duration_minutes": 45,
+        "price": 35.00
+      }
+    ],
+    "stylists": [
+      {
+        "stylist_id": 1,
+        "name": "Emily Smith",
+        "bio": "Emily has been a professional stylist for 10 years and specializes in cutting-edge haircuts and creative color."
+      },
+      {
+        "stylist_id": 2,
+        "name": "David Johnson",
+        "bio": "David is passionate about helping clients achieve their hair goals and loves experimenting with new styles."
+      },
+      {
+        "stylist_id": 3,
+        "name": "Jessica Brown",
+        "bio": "Jessica has a keen eye for detail and enjoys creating stunning updos and intricate braids."
+      },
+      {
+        "stylist_id": 4,
+        "name": "Michael Jackson",
+        "bio": "Michael is an experienced barber who excels in traditional men's grooming techniques and modern styles."
+      }
+    ],
+    "availability": {
+      "monday": "9:00 AM - 6:00 PM",
+      "tuesday": "9:00 AM - 6:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 6:00 PM",
+      "saturday": "8:00 AM - 4:00 PM",
+      "sunday": "Closed"
+    }
+  }
+  
