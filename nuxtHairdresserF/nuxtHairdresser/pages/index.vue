@@ -1,4 +1,5 @@
 <template>
+    <Navbar/>
     <div>
         <h2>Home</h2>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo ad officiis fugit fuga recusandae dicta dolor nobis cupiditate. Magni dicta excepturi odit perferendis maxime voluptates id, distinctio eligendi eveniet laboriosam.</p>
@@ -7,7 +8,7 @@
 </template>
 
 <script setup>
-
+import navbar from '~/components/navbar.vue';
 </script>
 <style  scoped>
 h2{
