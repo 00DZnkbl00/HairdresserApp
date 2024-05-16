@@ -43,14 +43,18 @@ python -m django --version
 ```sh
 django-admin startproject hairdresserBackend
 ```
+### Tworzenie własnej aplikacji
+```sh
+django-admin startapp reservationApp
+```
+### Tworzenie superusera
+```sh
+python hairdresserBackend/manage.py createsuperuser
+```
 
 # Uruchomienie
 ```sh
 python hairdresserBackend/manage.py runserver
-```
-### Tworzenie własnej aplikacji
-```sh
-django-admin startapp reservationApp
 ```
 
 # Migracje
@@ -61,8 +65,5 @@ django-admin startapp reservationApp
 python hairdresserBackend/manage.py migrate
 ```
 
-### Tworzenie superusera
-```sh
-python hairdresserBackend/manage.py createsuperuser
-```
+
 ### admin zaq1@WSX
